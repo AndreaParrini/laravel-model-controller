@@ -84,3 +84,11 @@ header {
         border-bottom: 1px solid grey;
     }
 }
+
+footer {
+    background-color: rgb(239, 238, 167);
+    color: rgb(36, 15, 15);
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
