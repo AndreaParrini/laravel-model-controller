@@ -14,6 +14,19 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="antialiased">
+        <header>
+            <div class="container">
+                <nav>
+                   <h3>Model-Controller</h3>
+                    <ul>
+                        <li>Home</li>
+                        <li>Movies</li>
+                        <li>About</li>
+                    </ul> 
+                </nav>
+                
+            </div>
+        </header>
         <div class="container">
             <div class="row">
                 @foreach ($movies as $movie)

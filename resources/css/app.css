@@ -28,6 +28,29 @@
     margin-bottom: 1rem;
 }
 
+header {
+    background-color: rgb(239, 238, 167);
+    color: rgb(36, 15, 15);
+    padding: 2rem;
+    text-transform: uppercase;
+
+    & nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & ul {
+            display: flex;
+            gap: 0.5rem;
+
+            & li {
+                list-style: none;
+            }
+        }
+    }
+}
+
+
 .card {
     border: 1px solid black;
     color: white;
