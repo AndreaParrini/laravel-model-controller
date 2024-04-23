@@ -20,4 +20,11 @@ class PageController extends Controller
         /* dd($movies); */
         return view('movies', compact('movies'));
     }
+
+    public function topMovies()
+    {
+        $movies = Movie::where('vote', '!=', '')->orderBy('vote', 'desc')->limit(3)->get();
+        /* dd($movies); */
+        return view('topmovies', compact('movies'));
+    }
 }

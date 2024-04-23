@@ -2,9 +2,7 @@
 
 @section('content')
 <div class="container">
-    <ul>
-        <li><a href="/topmovies">Top 3 Movies</a></li>
-    </ul>
+    <h3>Top 3 Film</h3>
     <div class="row">
         @foreach ($movies as $movie)
         <div class="col-4">
